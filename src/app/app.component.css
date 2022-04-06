@@ -1,0 +1,86 @@
+.logo-subtitulo {
+    margin-left: 50px;
+    color: white;
+    font-size: 18px;
+    font-family: "Degular";
+}
+
+.logo-titulo {
+    font-size: 40px;
+    margin-bottom: 1px;
+    margin-left: 20px !important;
+    color: white;
+    font-family: "Degular";
+}
+
+.navPrincipal {
+    background-color: #415364;
+}
+
+.cont1 {
+    display: flex; 
+    background-color:rgb(243,243,243); 
+    height:500px;
+    font-family: "Degular";
+}
+
+/* .imgNutri {
+    filter: grayscale(100%);
+    border-radius: 50%;
+} */
+
+.imgNutri {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tituloSeccion {
+    text-align: center;
+    color: #415364;
+    font-family: 'Degular'
+}
+
+.parrafo1 {
+    font-family: 'Degular';
+    text-align: center;
+    margin-left: 25%; 
+    margin-right: 25%; 
+    background-color:rgb(243,243,243);
+}
+
+.p1txt {
+    font-size: 18px;
+}
+
+.seccionNav {
+    color: #FFFF;
+    font-size: 20px;
+}
+
+.azul1{
+    color: #415364;
+}
+
+.nav-item:hover{
+    background-color:#2d3a45;
+    border-radius:7px;
+}
+
+.imgCurso {
+    border-radius: 4px;
+}
+
+.imgCurso:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+.footer {
+    height:100px;
+    background-color: #415364;
+}
+
+.icon-footer {
+    color: white;
+    font-size: 2rem;
+}
