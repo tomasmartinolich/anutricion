@@ -1,16 +1,29 @@
+@font-face {
+    font-family: roboto;
+    src: url(../assets/fonts/Roboto-Regular.ttf) format("opentype");
+}
+
+.fuente {
+    font-family: roboto;
+}
+
+.blackish {
+    color: rgb(43, 43, 43);
+}
+
 .logo-subtitulo {
     margin-left: 50px;
-    color: white;
+    color: rgb(243,243,243);
     font-size: 18px;
-    font-family: "Degular";
+    font-family: roboto;
 }
 
 .logo-titulo {
     font-size: 40px;
     margin-bottom: 1px;
     margin-left: 20px !important;
-    color: white;
-    font-family: "Degular";
+    color: rgb(243,243,243);
+    font-family: roboto;
 }
 
 .navPrincipal {
@@ -21,7 +34,7 @@
     display: flex; 
     background-color:rgb(243,243,243); 
     height:500px;
-    font-family: "Degular";
+    font-family: roboto;
 }
 
 /* .imgNutri {
@@ -38,11 +51,11 @@
 .tituloSeccion {
     text-align: center;
     color: #415364;
-    font-family: 'Degular'
+    font-family: roboto;
 }
 
 .parrafo1 {
-    font-family: 'Degular';
+    font-family: roboto;
     text-align: center;
     margin-left: 25%; 
     margin-right: 25%; 
@@ -54,8 +67,9 @@
 }
 
 .seccionNav {
-    color: #FFFF;
+    color: rgb(243,243,243);
     font-size: 20px;
+    font-family: roboto;
 }
 
 .azul1{
@@ -81,6 +95,15 @@
 }
 
 .icon-footer {
-    color: white;
+    color: rgb(243,243,243);
     font-size: 2rem;
+}
+
+.img-intro{
+    max-height: 400px;
+    
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10px;
+    border-radius: 10px;
 }
