@@ -1,0 +1,33 @@
+.fuente {
+    font-family: roboto;
+}
+
+.logo-subtitulo {
+    margin-left: 50px;
+    color: rgb(243,243,243);
+    font-size: 18px;
+    font-family: roboto;
+}
+
+.logo-titulo {
+    font-size: 40px;
+    margin-bottom: 1px;
+    margin-left: 20px !important;
+    color: rgb(243,243,243);
+    font-family: roboto;
+}
+
+.navPrincipal {
+    background-color: #415364;
+}
+
+.seccionNav {
+    color: rgb(243,243,243);
+    font-size: 20px;
+    font-family: roboto;
+}
+
+.nav-item:hover{
+    background-color:#2d3a45;
+    border-radius:7px;
+}
