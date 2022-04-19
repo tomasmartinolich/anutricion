@@ -1,10 +1,10 @@
 @font-face {
-    font-family: roboto;
-    src: url(../assets/fonts/Roboto-Regular.ttf) format("opentype");
+    font-family: Monserrat;
+    src: url(../assets/fonts/Montserrat-Regular.otf) format("opentype");
 }
 
 .fuente {
-    font-family: roboto;
+    font-family: Monserrat;
 }
 
 .blackish {
@@ -15,7 +15,7 @@
     display: flex; 
     background-color:rgb(243,243,243); 
     height:500px;
-    font-family: roboto;
+    font-family: Monserrat;
 }
 
 /* .imgNutri {
@@ -32,11 +32,11 @@
 .tituloSeccion {
     text-align: center;
     color: #415364;
-    font-family: roboto;
+    font-family: Monserrat;
 }
 
 .parrafo1 {
-    font-family: roboto;
+    font-family: Monserrat;
     text-align: center;
     margin-left: 25%; 
     margin-right: 25%; 
