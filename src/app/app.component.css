@@ -3,8 +3,26 @@
     src: url(../assets/fonts/Montserrat-Regular.otf) format("opentype");
 }
 
+@font-face {
+    font-family: Monserrat-Light;
+    src: url(../assets/fonts/Montserrat-Light.otf) format("opentype");
+}
+
+@font-face {
+    font-family: Monserrat-Bold;
+    src: url(../assets/fonts/Montserrat-Bold.otf) format("opentype");
+}
+
 .fuente {
     font-family: Monserrat;
+}
+
+.fuente-light {
+    font-family: Monserrat-Light;
+}
+
+.fuente-bold {
+    font-family: Monserrat-Bold;
 }
 
 .blackish {
@@ -17,11 +35,6 @@
     height:500px;
     font-family: Monserrat;
 }
-
-/* .imgNutri {
-    filter: grayscale(100%);
-    border-radius: 50%;
-} */
 
 .imgNutri {
     display: block;
@@ -62,6 +75,7 @@
 .footer {
     height:100px;
     background-color: #415364;
+    margin-bottom: 0px !important;
 }
 
 .icon-footer {
@@ -76,4 +90,19 @@
     margin-left: 10%;
     margin-right: 10px;
     border-radius: 10px;
+}
+
+.carousel-item{
+    width: 100%; /*width you want*/
+    /*height: 400px;*/ /*height you want*/
+    overflow: hidden;
+}
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bgDark {
+    color: #415364;
 }
